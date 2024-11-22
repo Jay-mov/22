@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    background-color: rgb(162, 107, 187);
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    box-shadow: 0 8px 16px rgb(249, 182, 255);
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(161, 129, 165);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+audio {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(249, 182, 255);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgb(220, 150, 240);
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: rgb(200, 130, 220);
+    transform: scale(1);
+}
+
+@keyframes colorChange {
+    0% {
+        color: purple;
+    }
+
+    25% {
+        color: black;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: pink;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.color-changing {
+    animation: colorChange 5s infinite;
+}
