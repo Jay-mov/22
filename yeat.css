@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-color: white;
+    background-color: purple;
     align-items: center;
     margin: 0;
     justify-content: center;
@@ -85,3 +85,4 @@ button:active {
 .color-changing {
     animation: colorChange 5s infinite;
 }
+
